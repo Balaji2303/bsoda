@@ -1,0 +1,15 @@
+data_source dbsource:  
+    type: snowflake
+    account: cl31586.central-india.azure
+    username: prabhus
+    password: Sastika@2023
+    role: accountadmin
+    database: SNOWFLAKE_SAMPLE_DATA
+    warehouse: compute_wh
+    schema: TPCH_SF10
+    threads: 10
+    client_session_keep_alive: False
+soda_cloud:
+  host: cloud.soda.io
+  api_key_id: f0e45c6a-5f96-421a-b51f-f1c4a2574162
+  api_key_secret: WtiRjhEoa5U0-C9bZQDljhJNRAV3gKI4pu5-Tb27UFLbiF98ghvGOg
